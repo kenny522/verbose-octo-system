@@ -10,6 +10,7 @@ By hovering over the cards that contain the projects the user can click on the "
 
 
 ## MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021  Kenny Nguyen
 
