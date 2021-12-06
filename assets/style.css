@@ -1,0 +1,217 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap";
+
+/*--- Global elements ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-text: white;
+  --dark-gray: rgb(77, 75, 75);
+  --mid-gray: gray;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+.nav-bar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+html {
+  font-family: "montserrat", sans-serif;
+  min-height: 100%;
+  background-image: url(./images/background-picture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  list-style: none;
+  height: 10vh;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+#name {
+  color: var(--white-text);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  background-image: url(./images/background-picture.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 0vh;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: left;
+  align-items: right;
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-size: 23px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+/*-- Starting point of the project and all elements used--*/
+.project-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+.project header {
+  font-size: 4rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.horiseon-projects {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  margin: 25px;
+  background-image: url(./images/Team-collaboration-office-marketing-meeting.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.til-projects {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  margin: 25px;
+  background-image: url(./images/foodcocktail.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.dboard-projects {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  margin: 25px;
+  background-image: url(./images/weather.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pword-projects {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  margin: 25px;
+  background-image: url(./images/password.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.tpg-projects {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: relative;
+  border-radius: 10px;
+  margin: 25px;
+  background-image: url(./images/tpg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*-- Section for the design of the project boxes --*/
+.text-container {
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+.text-container:hover {
+  height: 250px;
+}
+
+.name {
+  margin-top: 10px;
+  color: var(--dark-gray);
+  font-size: 2rem;
+}
+
+.content {
+  padding: 22px 0;
+  color: var(--mid-gray);
+}
+
+.button {
+  border: 4px solid var(--white-text);
+  width: 120px;
+  box-shadow: rgb(150, 149, 149);
+  padding: 9px;
+  margin-bottom: 38px;
+}
+
+/*-- Page footer --*/
+footer {
+  font-size: 1em;
+  text-align: center;
+  vertical-align: bottom;
+  color: white;
+}
